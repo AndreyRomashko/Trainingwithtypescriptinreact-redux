@@ -5,11 +5,19 @@
         "sourceMap": true,
         "noImplicitAny": true,
         "module": "commonjs",
+        "preserveConstEnums": true,
+        "removeComments": true,
+        
+
+
         "target": "es5",
         "jsx": "react",
         
     },
     "include": [
         "./src/**/*"
+    ],
+    "exclude": [
+        "./dist"
     ]
 }
